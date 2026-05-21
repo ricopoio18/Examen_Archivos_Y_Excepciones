@@ -1,0 +1,24 @@
+Tipo: MaestroTierraGenerico
+Nombre: Toph
+Nacion: tierra
+Genero: femenino
+Estado: true
+Edad: 17
+Energia: 12
+
+Tipo: Guerrero
+Nombre: Sokka
+Nacion: agua
+Genero: masculino
+Estado: true
+Edad: 19
+Energia: 30
+
+Tipo: MaestroFuegoGenerico
+Nombre: Zuko
+Nacion: fuego
+Genero: masculino
+Estado: true
+Edad: 19
+Energia: 20
+
