@@ -25,12 +25,6 @@ public abstract class MaestroUnElemento extends Personaje{
         if(nivelDeDominio < 10) nivelDeDominio++;
     }
 
-    public void verificarEnergia() throws EnergiaInsuficienteException {
-        if (energia < 10) {
-            throw new EnergiaInsuficienteException("¡El maestro necesita descansar y meditar!");
-        }
-    }
-
 
 }
 

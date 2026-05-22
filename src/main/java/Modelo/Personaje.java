@@ -70,6 +70,15 @@ public class Personaje{
         return energia;
     }
 
+    public void verificarEnergia() throws EnergiaInsuficienteException {
+        if (energia < 10 && energia>0) {
+            throw new EnergiaInsuficienteException("¡El maestro necesita descansar y meditar!");
+        }
+        else if (energia < 0) {
+            throw new EnergiaInsuficienteException("Energia negativa");
+        }
+    }
+
     public String toString(){
         return "\nNombre: " + nombre +
                 "\nNacion: " + nacion +
